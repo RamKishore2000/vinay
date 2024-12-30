@@ -2211,7 +2211,7 @@ class ChangeEmail(Screen):
     """changeEmail"""
     pass
 
-class Kishore(MDApp):
+class Ram(MDApp):
     def build(self):
         """Build and return the ScreenManager with all screens"""
         self.theme_cls.theme_style = "Light"  # Set the theme style
@@ -2607,4 +2607,4 @@ class Kishore(MDApp):
     Builder.load_string(kv)
 
 if __name__ == "__main__":
- Kishore().run()
+ Ram().run()
